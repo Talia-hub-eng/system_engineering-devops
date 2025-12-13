@@ -1,1 +1,2 @@
-printf "#!/bin/bash\nchmod 753 hello\n" > 9-John_Doe
+#!/bin/bash
+chmod 753 hello
