@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script displays a message when receiving a SIGTERM signal
+# This script traps SIGTERM and displays a message instead of terminating
 
 trap 'echo "I am invincible!!!"' SIGTERM
 
